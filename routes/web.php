@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\usercontroller;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,4 +18,11 @@ use App\Http\Controllers\AdminController;
 Route::get('/', function () {
     return view('home.homepage');
 });
-Route::any('/admindashboard', [AdminController::class, 'index']);
+
+Route::any('/admindashboard', [AdminController::class, 'index'])->name('admindashboard');
+Route::any('/adminlogin', [AdminController::class, 'adminloginview'])->name('adminlogin');
+Route::any('/dologin', [AdminController::class, 'dologin']);
+
+
+Route::any('/userlogin', [usercontroller::class, 'index']);
+

@@ -171,7 +171,7 @@
     <section class="hero">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                {{-- <div class="col-lg-3">
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
@@ -191,8 +191,8 @@
                             <li><a href="#">Fresh Bananas</a></li>
                         </ul>
                     </div>
-                </div>
-                <div class="col-lg-9">
+                </div> --}}
+                <div class="col-lg-12">
                     <div class="hero__search">
                         <div class="hero__search__form">
                             <form action="#">
@@ -214,7 +214,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero__item set-bg" data-setbg="{{asset('asset/img/hero/banner.jpg')}}">
+                    <div class="hero__item set-bg" data-setbg="https://www.petfooddepot.ie/web/image/xx.website.carousel/20/newsletter_image?unique=da6f230">
                         <div class="hero__text">
                             <span>FRUIT FRESH</span>
                             <h2>Vegetable <br />100% Organic</h2>
@@ -410,12 +410,12 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="banner__pic">
-                        <img src="{{asset('asset/img/banner/banner-1.jpg')}}" alt="">
+                        <img src="{{asset('asset/img/banner/banner_1.webp')}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="banner__pic">
-                        <img src="{{asset('asset/img/banner/banner-2.jpg')}}" alt="">
+                        <img src="{{asset('asset/img/banner/banner-2.webp')}}" alt="">
                     </div>
                 </div>
             </div>
