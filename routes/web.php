@@ -22,6 +22,8 @@ Route::get('/', function () {
 Route::any('/admindashboard', [AdminController::class, 'index'])->name('admindashboard');
 Route::any('/adminlogin', [AdminController::class, 'adminloginview'])->name('adminlogin');
 Route::any('/dologin', [AdminController::class, 'dologin']);
+Route::any('/category', [AdminController::class, 'category'])->name('category');
+
 
 
 Route::any('/userlogin', [usercontroller::class, 'index']);

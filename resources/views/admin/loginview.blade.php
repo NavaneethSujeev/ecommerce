@@ -153,6 +153,7 @@
         input[type=text]:placeholder {
         color: #cccccc;
         }
+        
 
 
 
@@ -291,7 +292,7 @@
                 </div>
             @endif
             <input type="text" id="name" class="fadeIn second" name="name" placeholder="User Name" required>
-            <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password" required>
+            <input type="text" id="password" class="fadeIn third" name="password" placeholder="Password" required>
             <input type="submit" class="fadeIn fourth" value="Log In">
             </form>
 
