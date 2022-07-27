@@ -27,4 +27,6 @@ Route::any('/category', [AdminController::class, 'category'])->name('category');
 
 
 Route::any('/userlogin', [usercontroller::class, 'index']);
+Route::any('/Register', [usercontroller::class, 'Register']);
+
 
